@@ -1,0 +1,44 @@
+ body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .container {
+    text-align: center;
+ }
+
+
+ #top-img {
+    background-color: green;
+ }
+ 
+
+ #left-text {
+    background-color:mediumpurple;
+    float: left;
+    width: 30%;
+ }
+
+ #right-img {
+    background-color: lightblue;
+    float: right;
+    width: 70%;
+ }
+
+ #bottom-text {
+    background-color: lemonchiffon;
+ }
+
+.clear {
+    clear:both;
+}
+
+#top-img, #bottom-text {
+    height: 90px;
+    padding-top: 10px;
+}
+
+#left-text, #right-img {
+    height: 300px;
+    padding-top: 200px;
+
+}

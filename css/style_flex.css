@@ -1,0 +1,43 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ }
+
+ #top-img {
+    background-color: green;
+ }
+ 
+
+ #left-text {
+    background-color:mediumpurple;
+    width: 30%;
+ }
+
+ #right-img {
+    background-color: lightblue;
+    width: 70%;
+ }
+
+ #bottom-text {
+    background-color: lemonchiffon;
+ }
+
+ .horisontal-bar {
+    display: flex;
+ }
+
+ #left-text, #right-img {
+    height: 300px;
+    padding-top: 200px;
+
+}
+
+#top-img, #bottom-text {
+    height: 90px;
+    padding-top: 10px;
+}
